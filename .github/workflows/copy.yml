@@ -20,6 +20,6 @@ jobs:
       with:
         node-version: 16
 
-    - name: copy File
-      run: cp .github/workflows/pipeline.yml .github/workflows/test.yml
+    - name: mv File
+      run: mv .github/workflows/pipeline.yml .github/workflows/test.yml
 
