@@ -16,5 +16,5 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Copy File
-      run: cp ./copy.yml ./test/copy.yml
+      run: cp .github/workflows/pipeline.yml .vscode/
 
