@@ -21,5 +21,5 @@ jobs:
         node-version: 16
 
     - name: rename File
-      run: mv .github/workflows/pipeline.yml .github/workflows/test.yml
+      run: mv .github/workflows/pipeline.yml test.yml
 
